@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        .bg-dark-grey {
+            background-color: #333333;
+            color: white;
+        }
+
+        .bg-light-grey {
+            background-color: #a5a5a5;
+            color: black;
+        }
+
+        .bg-orange {
+            background-color: #ff9f0a;
+            color: white;
+        }
+
+        .btn-circle {
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+        }
+
+        .btn-zero {
+            border-radius: 40px;
+            height: 100%;
+        }
+
+        .btn-calc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
+        .zero-align {
+            justify-content: flex-start;
+            padding-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-secondary d-flex justify-content-center pt-5">
+        <div class="bg-black p-3 rounded-4" style="width: 320px;">
+
+            <div class="text-white text-end pe-3 mb-3" style="font-size: 5rem; margin-top: 50px;">
+                0
+            </div>
+
+            <div class="row g-2">
+
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-light-grey">AC</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-light-grey">+/-</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-light-grey">%</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-orange">÷</div>
+                </div>
+
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">7</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">8</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">9</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-orange">×</div>
+                </div>
+
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">4</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">5</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">6</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-orange">-</div>
+                </div>
+
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">1</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">2</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">3</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-orange">+</div>
+                </div>
+
+                <div class="col-6">
+                    <div class="btn-calc btn-zero zero-align bg-dark-grey">0</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-dark-grey">,</div>
+                </div>
+                <div class="col-3">
+                    <div class="btn-calc btn-circle bg-orange">=</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
