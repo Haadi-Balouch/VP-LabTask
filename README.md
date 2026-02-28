@@ -1,4 +1,4 @@
-# vp-labtask
+# VP-LabTask
 
 A collection of Visual Programming lab tasks built with **HTML**, **CSS**, and **Bootstrap 5**. This repository contains five mini front-end projects demonstrating various UI layouts and components.
 
